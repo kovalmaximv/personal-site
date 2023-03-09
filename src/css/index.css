@@ -1,5 +1,6 @@
 body {
-  background-color: #f5f6f8;
+  /*background-color: #f5f6f8;*/
+  background-color: white;
   margin: 0;
   font-family: Ubuntu;
   -webkit-font-smoothing: antialiased;
@@ -27,12 +28,13 @@ html {
   height: 10rem;
   border-radius: 10px;
   border: 1px solid;
+  opacity: 80%;
 }
 
 .block {
-  box-shadow: var(--block-shadow);
-  background-color: white;
-  border-radius: 10px;
+  /*box-shadow: var(--block-shadow);*/
+  /*background-color: white;*/
+  /*border-radius: 10px;*/
   width: 900px;
   height: 350px;
   margin: 0 auto;
@@ -47,6 +49,34 @@ html {
   margin-top: 0.8rem;
 }
 
-.section {
+.small-section {
+  height: 40vh;
+}
+
+.main-section {
   height: 100vh;
+  background-image: url(../../public/st-petersburg-2.jpg);
+  background-position: center;
+}
+
+.button {
+  padding: 1rem 0.5rem;
+  text-decoration: none;
+  border-radius: 15px;
+  background-color: white;
+  border: solid 2px #333;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+  text-align: center;
+}
+
+.button.active {
+  color: white;
+  background-color: #333;
+}
+
+h3 {
+  margin-block-start: 0px;
+  margin-block-end: 0.33rem;
 }
