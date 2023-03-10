@@ -3,6 +3,7 @@ import Intro from './blocks/Intro'
 import About from './blocks/About';
 import Experience from './blocks/Experience';
 import Skills from './blocks/Skills';
+import Contacts from './blocks/Contacts';
 
 function App() {
   return (
@@ -19,8 +20,8 @@ function App() {
       <div className='small-section' style={{justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
         <Skills/>
       </div>
-      <div className='small-section' style={{justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
-        <About/>
+      <div style={{justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
+        <Contacts/>
       </div>
     </div>
   );
