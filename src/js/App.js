@@ -2,6 +2,7 @@ import '../css/App.css';
 import Intro from './blocks/Intro'
 import About from './blocks/About';
 import Experience from './blocks/Experience';
+import Skills from './blocks/Skills';
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
         <Experience/>
       </div>
       <div className='small-section' style={{justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
-        <About/>
+        <Skills/>
       </div>
       <div className='small-section' style={{justifyContent: 'center', display: 'flex', alignItems: 'center'}}>
         <About/>

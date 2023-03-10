@@ -76,6 +76,57 @@ html {
   background-color: #333;
 }
 
+.badge-showcase {
+  display: grid;
+  column-gap:  18px;
+  row-gap:  18px;
+  grid-template-columns: 135px 135px 135px 135px 135px 135px;
+}
+
+.badge {
+  padding: 0.3rem 0.1rem;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 18px;
+  width: 135px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: row;
+}
+
+.theory {
+  background-color: #D7BDE2;
+  color: black;
+}
+
+.tech {
+  background-color: #C1E1C1;
+  color: black;
+}
+
+.devops {
+  background-color: #ABB2B9;
+  color: black;
+}
+
+.sql {
+  background-color: #A7C7E7;
+  color: black;
+}
+
+.no-sql {
+  background-color: #FAA0A0;
+  color: black;
+}
+
+.tool {
+  background-color: 	#FAC898;
+  color: black;
+}
+
+
+
 h3 {
   margin-block-start: 0px;
   margin-block-end: 0.33rem;
