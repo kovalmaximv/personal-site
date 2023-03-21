@@ -1,0 +1,19 @@
+.terminal {
+    font-size: 48px;
+    box-shadow: var(--block-shadow);
+    margin: 2rem 5rem;
+    background-color: white;
+    width: 78rem;
+    height: 10rem;
+    border-radius: 10px;
+    border: 1px solid;
+    opacity: 80%;
+}
+
+.buttons {
+    background: url(../../public/traffic_lights.svg) center center / 100% 100%;
+    height: 1rem;
+    width: 6rem;
+    margin-left: 0.5rem;
+    margin-top: 0.8rem;
+}

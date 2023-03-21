@@ -1,4 +1,6 @@
 import '../css/App.css';
+import '../css/Intro.css'
+import '../css/Skills.css'
 import Intro from './blocks/Intro'
 import About from './blocks/About';
 import Experience from './blocks/Experience';

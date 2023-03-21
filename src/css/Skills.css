@@ -1,0 +1,26 @@
+  .badge-showcase {
+    display: grid;
+    column-gap:  18px;
+    row-gap:  18px;
+    grid-template-columns: 135px 135px 135px 135px 135px 135px;
+  }
+  
+  .badge {
+    padding: 0.3rem 0.1rem;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 18px;
+    width: 135px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    transition: all .2s ease-in-out;
+    background-color: #ABB2B9;
+    color: black;
+    cursor: default;
+  }
+
+  .badge:hover {
+    transform: scale(1.15);
+  }
